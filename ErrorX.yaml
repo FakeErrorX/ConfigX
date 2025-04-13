@@ -105,7 +105,7 @@ proxy-groups:
       - "Server-19"
       - "Server-20"
     url: http://1.1.1.1/
-    interval: 120
+    interval: 60
     strategy: round-robin
 
 rules:
