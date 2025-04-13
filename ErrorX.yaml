@@ -1,84 +1,24 @@
 proxies:
-  - name: "Server-1"
-    type: socks5
-    server: 127.0.0.1
-    port: 18010
-  - name: "Server-2"
-    type: socks5
-    server: 127.0.0.1
-    port: 18011
-  - name: "Server-3"
-    type: socks5
-    server: 127.0.0.1
-    port: 18012
-  - name: "Server-4"
-    type: socks5
-    server: 127.0.0.1
-    port: 18013
-  - name: "Server-5"
-    type: socks5
-    server: 127.0.0.1
-    port: 18014
-  - name: "Server-6"
-    type: socks5
-    server: 127.0.0.1
-    port: 18015
-  - name: "Server-7"
-    type: socks5
-    server: 127.0.0.1
-    port: 18016
-  - name: "Server-8"
-    type: socks5
-    server: 127.0.0.1
-    port: 18017
-  - name: "Server-9"
-    type: socks5
-    server: 127.0.0.1
-    port: 18018
-  - name: "Server-10"
-    type: socks5
-    server: 127.0.0.1
-    port: 18019
-  - name: "Server-11"
-    type: socks5
-    server: 127.0.0.1
-    port: 18020
-  - name: "Server-12"
-    type: socks5
-    server: 127.0.0.1
-    port: 18021
-  - name: "Server-13"
-    type: socks5
-    server: 127.0.0.1
-    port: 18022
-  - name: "Server-14"
-    type: socks5
-    server: 127.0.0.1
-    port: 18023
-  - name: "Server-15"
-    type: socks5
-    server: 127.0.0.1
-    port: 18024
-  - name: "Server-16"
-    type: socks5
-    server: 127.0.0.1
-    port: 18025
-  - name: "Server-17"
-    type: socks5
-    server: 127.0.0.1
-    port: 18026
-  - name: "Server-18"
-    type: socks5
-    server: 127.0.0.1
-    port: 18027
-  - name: "Server-19"
-    type: socks5
-    server: 127.0.0.1
-    port: 18028
-  - name: "Server-20"
-    type: socks5
-    server: 127.0.0.1
-    port: 18029
+  - {name: "Server-1", type: socks5, server: 127.0.0.1, port: 18010}
+  - {name: "Server-2", type: socks5, server: 127.0.0.1, port: 18011}
+  - {name: "Server-3", type: socks5, server: 127.0.0.1, port: 18012}
+  - {name: "Server-4", type: socks5, server: 127.0.0.1, port: 18013}
+  - {name: "Server-5", type: socks5, server: 127.0.0.1, port: 18014}
+  - {name: "Server-6", type: socks5, server: 127.0.0.1, port: 18015}
+  - {name: "Server-7", type: socks5, server: 127.0.0.1, port: 18016}
+  - {name: "Server-8", type: socks5, server: 127.0.0.1, port: 18017}
+  - {name: "Server-9", type: socks5, server: 127.0.0.1, port: 18018}
+  - {name: "Server-10", type: socks5, server: 127.0.0.1, port: 18019}
+  - {name: "Server-11", type: socks5, server: 127.0.0.1, port: 18020}
+  - {name: "Server-12", type: socks5, server: 127.0.0.1, port: 18021}
+  - {name: "Server-13", type: socks5, server: 127.0.0.1, port: 18022}
+  - {name: "Server-14", type: socks5, server: 127.0.0.1, port: 18023}
+  - {name: "Server-15", type: socks5, server: 127.0.0.1, port: 18024}
+  - {name: "Server-16", type: socks5, server: 127.0.0.1, port: 18025}
+  - {name: "Server-17", type: socks5, server: 127.0.0.1, port: 18026}
+  - {name: "Server-18", type: socks5, server: 127.0.0.1, port: 18027}
+  - {name: "Server-19", type: socks5, server: 127.0.0.1, port: 18028}
+  - {name: "Server-20", type: socks5, server: 127.0.0.1, port: 18029}
 
 proxy-groups:
   - name: "ErrorX"
