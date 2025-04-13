@@ -104,7 +104,7 @@ proxy-groups:
       - "Server-18"
       - "Server-19"
       - "Server-20"
-    url: http://1.1.1.1/
+    url: https://www.gstatic.com/generate_204
     interval: 120
     strategy: round-robin
 
