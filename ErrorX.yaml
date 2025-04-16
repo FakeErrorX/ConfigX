@@ -53,5 +53,6 @@ rules:
   - DOMAIN-SUFFIX,google.com,ErrorX
   - DOMAIN-SUFFIX,youtube.com,ErrorX
   - DOMAIN-SUFFIX,facebook.com,ErrorX
+  - DOMAIN-SUFFIX,errorx.net,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,ErrorX
