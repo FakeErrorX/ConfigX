@@ -21,7 +21,7 @@ proxies:
   - {name: "🇧🇩 Server-20", type: socks5, server: 127.0.0.1, port: 18029}
 
 proxy-groups:
-  - name: "🇧🇩 ErrorX"
+  - name: "ErrorX"
     type: load-balance
     proxies:
       - "🇧🇩 Server-1"
