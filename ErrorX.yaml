@@ -1,33 +1,5 @@
-proxies:
-  - {name: "🇧🇩 Beta-1", type: socks5, server: 27.147.225.94, port: 10888, username: test, password: test123}
-  - {name: "🇧🇩 Beta-2", type: socks5, server: 103.137.160.49, port: 6969, username: "@BDiX_BypassX", password: "@BDiX_BypassX"}
-  - {name: "🇧🇩 Beta-3", type: socks5, server: 119.40.84.250, port: 1052, username: ras, password: ras}
-  - {name: "🇧🇩 Beta-4", type: socks5, server: 203.188.250.61, port: 19201, username: test, password: test}
-  - {name: "🇧🇩 Beta-5", type: socks5, server: 103.200.93.77, port: 19201, username: test, password: test}
-  - {name: "🇧🇩 Beta-6", type: socks5, server: 43.243.206.90, port: 9090, username: MX, password: XM}
-  - {name: "🇧🇩 Beta-7", type: socks5, server: 115.127.139.114, port: 9090, username: test, password: test}
-
-proxy-groups:
-  - name: "ErrorX"
-    type: load-balance
-    proxies:
-      - "🇧🇩 Beta-1"
-      - "🇧🇩 Beta-2"
-      - "🇧🇩 Beta-3"
-      - "🇧🇩 Beta-4"
-      - "🇧🇩 Beta-5"
-      - "🇧🇩 Beta-6"
-      - "🇧🇩 Beta-7"
-      
-    url: https://www.gstatic.com/generate_204
-    interval: 120
-    strategy: round-robin
-
-rules:
-  - PROCESS-NAME,ErrorX,DIRECT
-  - DOMAIN-SUFFIX,google.com,ErrorX
-  - DOMAIN-SUFFIX,youtube.com,ErrorX
-  - DOMAIN-SUFFIX,facebook.com,ErrorX
-  - DOMAIN-SUFFIX,errorx.net,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,ErrorX
+��U�,�8
+���g���^9��y�8���5G�`='݉P�0r�-��ك�9�����vm=L��
+�IViF��]HR���q%ݙ�*2U�z+��`�mK�~I���g'�����k�w���i	>�'�g��%�O��6��u$�7��������zNr�SG���<J��
+��nH�{�{�竈����:�Х�7Sm�]3���K�AxY��M�n�GKU�+��hE�"�{Ԣ�(�nX��5̆�ي�?u@P'WT6���$7I��F��H�ǣ- �(����8�|��	��[�n���s���G���5`maZ�B��1�_�>E��v>�ݷtj?���s��ƃ2Z��z��m�״��k���f_.,�I�I
+��P���E[K���[���jM�Uz��}�&�����+v���79[Ea�V�q5����NwY���w�v�:�YL��<;~ܽ3��0�0Y>("H*��}i1Y#�p���8s�꽶{f�ƽQ�Ip4B���ӡ���[T\nC;�ק`�a���Z=Fd-^�r�h�����^xd~�ycѫQ���s�K8���c�ZY|^��*g�"�b�G(o���{��?3gl�
